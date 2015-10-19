@@ -56,7 +56,7 @@ public class OilListAdapter extends BaseAdapter {
         }
         Oil oils = oil.get(position);
         holder.productName.setText(oils.getName());
-        holder.price.setText(oils.getPrice() + " บาท");
+        holder.price.setText(oils.getPrice() + " บาท/ลิตร");
 
         return convertView;
     }
